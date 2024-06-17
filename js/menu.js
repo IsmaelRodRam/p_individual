@@ -1,11 +1,11 @@
 $('#play').on('click', 
     function(){
-        window.location.assign("./html/game.html");
+        window.location.assign("../html/game.html");
     });
     
     $('#options').on('click', 
     function(){
-        window.location.assign("./html/options.html");
+        window.location.assign("../html/options.html");
     });
     
     $('#saves').on('click', 

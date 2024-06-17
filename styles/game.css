@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos el alto completo de la ventana */
+    min-height: 100vh; 
 }
 
 h1 {
