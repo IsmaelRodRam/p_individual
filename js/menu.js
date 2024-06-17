@@ -1,21 +1,19 @@
-addEventListener('load', function() {
-    document.getElementById('play').addEventListener('click', 
+$('#play').on('click', 
     function(){
         window.location.assign("./html/game.html");
     });
-
-    document.getElementById('options').addEventListener('click', 
+    
+    $('#options').on('click', 
     function(){
         window.location.assign("./html/options.html");
     });
-
-    document.getElementById('saves').addEventListener('click', 
+    
+    $('#saves').on('click', 
     function(){
         console.error("Opció no implementada");
     });
-
-    document.getElementById('exit').addEventListener('click', 
+    
+    $('#exit').on('click', 
     function(){
         console.warn("No es pot sortir!");
     });
-});
