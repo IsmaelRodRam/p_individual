@@ -1,4 +1,4 @@
-import { game as gController } from "../memory.js";
+import { game as gController } from "./memory.js";
 
 var game = $('#game');
 
