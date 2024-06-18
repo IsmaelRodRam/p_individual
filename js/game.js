@@ -14,4 +14,3 @@ gController.init(updateSRC).forEach(function(card, indx){
 function updateSRC(){
     this.pointer.attr("src", this.current);
 }
-
