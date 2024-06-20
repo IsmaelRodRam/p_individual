@@ -7,7 +7,7 @@ addEventListener('load', function() {
 
     document.getElementById('saves').addEventListener('click', 
     function(){
-        fetch("../php/load.php",{
+        fetch("./php/load.php",{
             method: "POST",
             body: "",
             headers: {"content-type":"application/json; charset=UTF-8"}
