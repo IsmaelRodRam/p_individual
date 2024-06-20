@@ -1,4 +1,5 @@
 import { game as gController } from "./memory.js";
+import { game as gController } from "./memorymodo2.js";
 
 var game = $('#game');
 
